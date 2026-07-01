@@ -389,6 +389,16 @@ footer a:focus-visible {
         max-height: 420px;
         align-self: center;
     }
+    video {
+        width: min(100%, 250px);
+        height: min(100%, 250px);
+        max-height: 420px;
+        align-self: center;
+    }
+
+    audio {
+        align-self: center;
+    }
 }
 
 /* TODO: Add responsive design for iPads */
@@ -437,7 +447,7 @@ footer a:focus-visible {
         max-height: 420px;
         align-self: center;
     }
-    
+
     audio {
         align-self: center;
     }
